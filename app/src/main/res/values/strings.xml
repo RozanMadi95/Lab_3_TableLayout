@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">TableLayout</string>
+    <string name="tv_titel">All Items and Price </string>
+    <string name="tv_00">Item # </string>
+    <string name="tv_01">Item Name </string>
+    <string name="tv_02">price </string>
+    <string name="tv_10">1</string>
+    <string name="tv_11">laptop</string>
+    <string name="tv_12">500</string>
+    <string name="tv_20">2</string>
+    <string name="tv_21">Printer</string>
+    <string name="tv_22">100 </string>
+    <string name="tv_30">3 </string>
+    <string name="tv_31">Scanner</string>
+    <string name="tv_32">50</string>
+    <string name="tv_40">4</string>
+    <string name="tv_41">Projector</string>
+    <string name="tv_42">450</string>
+</resources>

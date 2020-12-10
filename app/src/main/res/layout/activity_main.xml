@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/bg"
+    android:padding="8dp">
+<!--
+ عدد الصفوف خمسة لذلك استخدم TableRow
+ عدد الاعمدة في كل صف ثلاثة اعمدة  لذلك استخدم
+ بداخل TableRow ثلاث عناصر من TextView
+ لتعبر عن خلايا العمود
+
+-->
+
+    <TextView android:id="@+id/tv_titel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:layout_marginBottom="4dp"
+        android:gravity="center"
+        android:padding="20dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/textexplan"
+        android:text="@string/tv_titel"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+
+    <TableRow
+        android:id="@+id/tr_zero"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TextView
+            android:id="@+id/tv_00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/tittelcolm"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="@string/tv_00"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/tittelcolmcenter"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="@string/tv_01"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/tittelcolm"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="@string/tv_02"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"  />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tr_one"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/cell"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="@string/tv_10"
+            android:textColor="@color/black"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/tv_11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/cell"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="@string/tv_11"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/cell"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="@string/tv_12"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tr_two"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/cell"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="@string/tv_20"
+            android:textColor="@color/black"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/tv_21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/cell"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="@string/tv_21"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/cell"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="@string/tv_22"
+            android:textColor="@color/black"
+            android:textSize="20sp"/>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tr_three"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/cell"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="@string/tv_30"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/cell"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="@string/tv_31"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/cell"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="@string/tv_32"
+            android:textColor="@color/black"
+            android:textSize="20sp"/>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tr_four"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_40"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/cell"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="@string/tv_40"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_41"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/cell"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="@string/tv_41"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_42"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/cell"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="@string/tv_42"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+    </TableRow>
+
+    <TextView
+        android:id="@+id/tv_end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="90dp"
+        android:layout_weight="1"
+        android:background="@color/textexplan"
+        android:lineSpacingExtra="4sp"
+        android:padding="30dp"
+        android:text=". All Price are in US $. \n. Prices does not include TAX."
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+</TableLayout>
